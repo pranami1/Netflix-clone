@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@500&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(bg.jpg);
+    height: 90vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1900px, 100vw);
+    background-position: cover;
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+    height: 70px;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    width: 160px;
+    position: relative;
+    z-index: 10;
+}
+
+nav .btn {
+    position: relative;
+    z-index: 10;
+
+}
+
+.texts {
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 24px;
+    padding: 0 30px;
+}
+
+.texts> :first-child {
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+
+    /* line-height: 80px; */
+}
+
+.texts> :nth-child(2) {
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+
+
+    /* line-height: 80px; */
+}
+
+.texts> :nth-child(3) {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    /* line-height: 80px; */
+}
+
+.texts>:nth-child(4) {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+    /* line-height: 80px; */
+}
+
+/* navbar button padding */
+
+.btn button {
+    padding: 9px 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0);
+    ;
+}
+
+/* 1st button  */
+.eng {
+    font-weight: 900;
+    /* background-color: rgba(23,23,23,0.2); */
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+/* 2nd button */
+.btn :nth-child(2) {
+    background-color: red;
+    border-style: none;
+    color: white;
+}
+
+/* get started styling */
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.email button {
+    background-color: red;
+    padding: 10px 40px;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.email input {
+    padding: 15px 180px 15px 30px;
+    font-weight: 700;
+    background-color: rgba(23, 23, 23, 0.2);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.477);
+
+}
+
+/* a color line */
+.line1 {
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    height: 70px;
+    width: 100%;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    /* margin-top: -95px; */
+
+    /* content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -.25rem;
+    border-radius: inherit;
+    */
+}
+
+/* section part  */
+section {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.tex {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 60vw;
+    margin: auto; */
+    margin-top: 20px;
+    color: white;
+    font-size: 29px;
+    /* font-weight: 800; */
+}
+
+.two-btn {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    max-width: 60vw;
+    gap: 25px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.buttons {
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.477);
+}
+
+.buttons img {
+    /* color: white; */
+    background-color: white;
+}
+
+/* img series section */
+
+.imagesecton {
+    display: flex;
+
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.font {
+    -webkit-text-stroke: 2px white;
+
+}
+
+
+
+.first-img {
+    background-image: url("https://occ-0-4100-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRdHH1kknBPqzHdMLO2sdIGevZN2L9TQbc7rXNYE0xdzErZai-dcQTJSWITfOpVARl-wX43-zutpdNvCxSuUIR-Hclt9KX776NiTuQoQIH_PBia4PV-q5xpeYZhyYswGDsFMVJ11yYmbSKf7s_0-woPZEKMOh68RUgl2y4S5CL_6EwoGkf_23BcNfBuhyk_J8TCrZlGuFBtpMlnaheRbEhO82howRRx3qbXu7w2TMZbpJl_ZzYP6ASdb60hGbDjJ66MHnH3ASORUtlebZezjYoqoceBYin7z3CLINQ6uYGyuKzNVU8I4HDeeYEr-ylfPr5gCos4MsSxo_VO1jFtWSc4.webp?r=e1d");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+
+.first-font {
+
+    font-size: 50px;
+    position: absolute;
+    top: 164px;
+    left: -9px;
+    font-size: 120px;
+    color: black;
+    font-weight: 700;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+
+}
+
+/* for second picture of series */
+
+
+.first-img2 {
+    background-image: url("https://occ-0-4100-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcYIdkglp6B86cFnjVVQsCVrcS5wMFQI_WUIhGDQ8HzHqR1jA_4eZzUEbJ2diFCv_X94sFydL1xPOAstW5NJ7vofn5L8apYclblsguyD4ZrGnjrMSHnoTQMNI0PnhMwFPdppnSxTIIFeOqajxOt9jByN3vv03-T8WOzxUWVi3-WwMhH2TQJZ9LSijb79MNTNXZt7Z_jC1PxXrGtgx1nJeta9utX8fAaEBht1b7lI6C_RvjinY6HR0IhwpWX80IZ4B6CfWxAcEHVMpGbi-zIDzFiqxbo5flKP0OJQ46w7TDy3u0SU2aY4rQIp8yvGb7TZ3Ri1ERsJVPxm53rSA7iPDchRrOnX0wv136x3wRQP7Po_LBlcIlo.webp?r=201");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+
+}
+
+
+.first-font2 {
+
+    font-size: 50px;
+    position: absolute;
+    top: 164px;
+    left: -9px;
+    font-size: 120px;
+    color: black;
+    font-weight: 700;
+
+}
+
+
+/* for 3rd img */
+
+.first-img3 {
+    background-image: url("https://occ-0-4100-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABd-YGh_bvuzKadnvPj27fy7lHwG7D8nUzfyWGi0NZqxoh1kyQt77A2BiwNHGjzSLv3dnMZReXSh5lsWbAcRIh6ND90eTYRvGalmEDch76KEonU6raBwRCyr7ZuK_lYdZzyu7jNgvYk_2TQR0AXCY-J17Em8pKqaEnvr9Ls6VeTbZ-u35hhBJW36ZQlOvRrjWmDFtvM0GgYLGkRLjs4MEz757x7N3qO--L07hmWjtYACCmekzf0sZu43sMvQyjxqozJbXQPauKX-nG4U64I5uF-SAlyqEpVff-x7leN9btgLmUoLbWnJ9YSaAr47CwXVneDdd_wPQLU8_f3JTlZjrs8k.webp?r=bf7");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+
+.first-font3 {
+
+    font-size: 50px;
+    position: absolute;
+    top: 164px;
+    left: -9px;
+    font-size: 120px;
+    color: black;
+    font-weight: 700;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+
+/* for 4th img */
+
+.first-img4 {
+    background-image: url("https://occ-0-4100-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABY2wEo96cXNfBuCNtJIp0W8vNebys8ZlwuBDPq9EEhbL-My9RPnwZ5PPxg4yrOz7yJlC8LYnqAnRUNmOqumrtB3qVmjFSLXqBhNkJ7PPkUngDGcoH2rJWcmYg6yIjanNErxDJNETiLuL00VoNKR9se7-ckUDg7srObeoR6hs6G_Sxq5beT9gYSwWpLhgNLKndNNV-ai9LszBoiJI6ULEXuOru0uZwhN810OY379v4legIapQOSVQg2bELu06G4vYREcuUgiqEJQJKOm3mWjrAlRLiXyrJrrUXka1UlU_cJEbGbofFk49FfCJiMdB4JDCbu06sd1A_LZj2YPvXb1Agwg.webp?r=978");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+.first-font4 {
+
+    font-size: 50px;
+    position: absolute;
+    top: 164px;
+    left: -9px;
+    font-size: 120px;
+    color: black;
+    font-weight: 700;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+/* for 5th img */
+
+.first-img5 {
+    background-image: url("https://occ-0-4100-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdq8EVsHZsPhNAKvfJtF9C5kpYqaala6kSkRoHBIF-a4mjsmCTwC3DEkwPLRjjmNrrs3fEzvG1LVVhc8lkn1Kc6UNbVez0wdzErjzef2A7WuIvFHLFjZMKEPlYxDseecCo5hRbjFRJxOqD8W5hN18gQiVRvB5OYjMOIIoTCr-4XJH_bBcvH3eDiA6yamm2zQZnBCLvHNOM3r7HVqE6kFXCVxF38PY6G0q-6aImF6WJlaar47C9TmMBt2t9k8SUy_foYcLjL3pPV57tHP60fYIxcKR_ngpXvzN7W5hVQdufgMu2K6MYpZItYz.webp?r=ff5");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+.first-font5 {
+
+    font-size: 50px;
+    position: absolute;
+    top: 164px;
+    left: -9px;
+    font-size: 120px;
+    color: black;
+    font-weight: 700;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+    /* stroke:2px  white solid; */
+
+}
+
+
+/* box section style */
+
+.box-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.boxes1 {
+    background: linear-gradient(9500deg, #192144, #1e162a, #200e18);
+    height: 300px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+/* box1 text design */
+
+/* h3 tag design */
+.box1text {
+    align-content: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* flex-direction: column; */
+    color: white;
+    padding: 25px 25px 25px 25px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+/* p tag design */
+.pbox1text {
+    padding: 25px 25px;
+    margin-top: -30px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.boxes2 {
+    background: linear-gradient(9500deg, #192144, #1e162a, #200e18);
+    height: 300px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.boxes3 {
+    background: linear-gradient(9500deg, #192144, #1e162a, #200e18);
+    height: 300px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+.boxes4 {
+    background: linear-gradient(9500deg, #192144, #1e162a, #200e18);
+    height: 300px;
+    width: 800px;
+    border-radius: 20px;
+}
+
+
+.designofbox {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+
+}
+
+/* quetion sections */
+.rect h2{
+    color: white;
+    font-size: 32px;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+.recttitle{
+    /* height: 100px; */ 
+    padding: 25px 25px;
+    max-width: 60vw;
+    margin: auto;
+    background-color: #2d2d2d;
+    color: white;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.recttitle:hover{
+    transition: all 0.5s ease-out;
+    background-color: #3f3f3f;
+}
+.recttitle svg{
+    size: 200px;
+}
+
+/* mail section */
+
+.mailsection p{
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    /* padding: 30px 30px; */
+}
+
+/* email last formate */
+
+.email1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.email1 button {
+    margin-top: 20px;
+    background-color: red;
+    padding: 10px 30px;
+    font-weight: 550;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.email1 input {
+    margin-top: 20px;
+    padding: 15px 250px 15px 30px;
+    font-weight: 650;
+    background-color: rgba(23, 23, 23, 0.2);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.477);
+
+}
+
+/* for footer section */
+
+.footer1{
+    display: flex;
+    gap: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 60vw;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 80px;
+  
+}
+
+.number{
+      text-decoration-line: underline;
+}
+
+/* footer styles */
+
+
+.pr{
+    display: flex;  
+    background-color: black; 
+    /* color: white;    */
+    justify-content: space-evenly;   
+    /* margin-top: 1000px;    */
+    max-width: 81vw;
+    margin:  50px auto;
+}
+.get p {
+    font-size: 14px;
+   align-items: center;
+   color: rgba(255, 255, 255, 0.7);
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.last{
+    max-width: 60vw;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.bar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+@media screen and (max-width: 820px){
+
+    
+    .main nav{
+        max-width: 90vw;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .main img{
+        height: 10vh;
+        width: 10vw;
+    }
+    
+
+    .texts{
+        margin-top: -90px;
+    }
+
+    .tex h1{
+
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .two-btn{
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 750px; 
+        margin: 0 auto;
+        
+    }
+    .buttons{
+        width: 100%;
+        /* margin-left: 0.75rem; */
+        min-width: auto;
+        text-align: left;
+        border-radius: 5px;
+        margin-top: 10px;
+    
+    }
+    section{
+        max-width: 750px; 
+        margin: 0 auto;
+    }
+
+    .imagesecton{
+        margin-top: -70px;
+        width: 650px;
+        /* margin-left: -20px; */
+    }
+
+    .first-img, .first-img2, .first-img3, .first-img4, .first-img5{
+        /* height: 400px; */
+        width: 500rem;
+    }
+  
+
+    .first-font, .first-font2, .first-font3, .first-font4, .first-font5{
+    top: 150px;
+    left: -6px;
+    font-size: 64px;
+    }
+
+    
+    .box-section{
+        margin-top: -70px;
+       
+    }
+    .box-title{
+        font-size: 18px;
+    }
+
+    .designofbox{
+        flex-direction: column;
+        /* max-width: 450px; */
+       
+    }
+ 
+    .boxes1, .boxes2 , .boxes3, .boxes4 {
+        width: 750px;
+        height: 200px;
+    }
+
+  .rect h2{
+    font-size: 18px;
+
+  }
+
+  .recttitle{
+    max-width: 90vw;
+  }
+}
